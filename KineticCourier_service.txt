@@ -1,0 +1,24 @@
+# To install, do the following:
+# cd ~/KineticCourier
+# sudo cp KineticCourier_service.txt /lib/systemd/system/KineticCourier.service
+# sudo chmod 644 /lib/systemd/system/KineticCourier.service
+# sudo systemctl daemon-reload
+# sudo systemctl enable KineticCourier
+# sudo reboot
+
+
+[Unit]
+Description=Kinetic Courier
+After=multi-user.target
+
+[Service]
+Type=idle
+
+User=root
+ExecStart=/usr/bin/python3 /home/pi/KineticCourier/kinetic_courier.py
+
+Restart=always
+RestartSec=15
+
+[Install]
+WantedBy=multi-user.target
