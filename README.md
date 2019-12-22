@@ -39,7 +39,7 @@ hackster.io/thisoldgeek Kinetic Courier
 * username and key for adafruit.io; feeds setup on adafruit.io
 
 ## *More Information:*
-See the build log at https://bit.ly/2IAYcJQ
+See the build log at hackster.io/thisoldgeek Kinetic Courier
 ## *Update December 22 2019:*
 Initial install.
 
