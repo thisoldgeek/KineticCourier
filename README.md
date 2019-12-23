@@ -4,10 +4,9 @@
 ## *Description:*
 A 3D printed case and electronics, used as an alert system for IOT events.
 
-See the posting at (future):
+See the posting at:
 
-hackster.io/thisoldgeek Kinetic Courier
-
+https://www.hackster.io/thisoldgeek/kinetic-courier-0b4ab8
 
 ## *Required Hardware:*
 * raspberry pi zero W
